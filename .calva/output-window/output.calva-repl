@@ -1,0 +1,328 @@
+; Aborting connect, error determining connect sequence.
+; Evaluating file: part2.clj
+7
+clj꞉aoc2023.day01.part2꞉> 
+; Evaluating file: part2.clj
+7
+clj꞉aoc2023.day01.part2꞉> 
+; Evaluating file: part2.clj
+7
+clj꞉aoc2023.day01.part2꞉> 
+; Evaluating file: part2.clj
+0
+clj꞉aoc2023.day01.part2꞉> 
+; Evaluating file: part2.clj
+[{0 8} {4 2} {7 3}]
+#'aoc2023.day01.part2/min-ind
+clj꞉aoc2023.day01.part2꞉> 
+; Evaluating file: part2.clj
+[{0 8} {4 2} {7 3}]
+max 7
+min 0
+nil
+clj꞉aoc2023.day01.part2꞉> 
+; Evaluating file: part2.clj
+[{0 8} {4 2} {7 3}]
+#'aoc2023.day01.part2/min-ind
+clj꞉aoc2023.day01.part2꞉> 
+; Evaluating file: part2.clj
+[{0 8} {4 2} {7 3}]
+{0 8}
+{4 2}
+{7 3}
+nil
+clj꞉aoc2023.day01.part2꞉> 
+; Evaluating file: part2.clj
+[{0 8} {4 2} {7 3}]
+{0 8}
+; Execution error (ClassCastException) at aoc2023.day01.part2/get-first-last-digit (part2.clj:78).
+; class clojure.lang.PersistentArrayMap cannot be cast to class java.util.Map$Entry (clojure.lang.PersistentArrayMap is in unnamed module of loader 'app'; java.util.Map$Entry is in module java.base of loader 'bootstrap')
+; Evaluation of file part2.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉aoc2023.day01.part2꞉> 
+; Evaluating file: part2.clj
+[{0 8} {4 2} {7 3}]
+{0 8}
+; Execution error (ClassCastException) at aoc2023.day01.part2/get-first-last-digit (part2.clj:78).
+; class clojure.lang.PersistentArrayMap cannot be cast to class java.util.Map$Entry (clojure.lang.PersistentArrayMap is in unnamed module of loader 'app'; java.util.Map$Entry is in module java.base of loader 'bootstrap')
+; Evaluation of file part2.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉aoc2023.day01.part2꞉> 
+; Evaluating file: part2.clj
+[{0 8} {4 2} {7 3}]
+{0 8}
+; Execution error (ClassCastException) at aoc2023.day01.part2/get-first-last-digit (part2.clj:78).
+; class clojure.lang.PersistentArrayMap cannot be cast to class java.util.Map$Entry (clojure.lang.PersistentArrayMap is in unnamed module of loader 'app'; java.util.Map$Entry is in module java.base of loader 'bootstrap')
+; Evaluation of file part2.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉aoc2023.day01.part2꞉> 
+; Evaluating file: part2.clj
+[{0 8} {4 2} {7 3}]
+{0 8}
+{4 2}
+{7 3}
+; Execution error (ClassCastException) at aoc2023.day01.part2/get-first-last-digit (part2.clj:53).
+; class clojure.core$atom cannot be cast to class java.util.concurrent.Future (clojure.core$atom is in unnamed module of loader 'app'; java.util.concurrent.Future is in module java.base of loader 'bootstrap')
+; Evaluation of file part2.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉aoc2023.day01.part2꞉> 
+; Evaluating file: part2.clj
+[{0 8} {4 2} {7 3}]
+{0 8}
+; Execution error (ClassCastException) at aoc2023.day01.part2/get-first-last-digit (part2.clj:78).
+; class clojure.lang.PersistentArrayMap cannot be cast to class java.util.Map$Entry (clojure.lang.PersistentArrayMap is in unnamed module of loader 'app'; java.util.Map$Entry is in module java.base of loader 'bootstrap')
+; Evaluation of file part2.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉aoc2023.day01.part2꞉> 
+; Evaluating file: part2.clj
+[{0 8} {4 2} {7 3}]
+{0 8}
+nil
+{4 2}
+nil
+{7 3}
+nil
+; Execution error (ClassCastException) at aoc2023.day01.part2/get-first-last-digit (part2.clj:53).
+; class clojure.core$atom cannot be cast to class java.util.concurrent.Future (clojure.core$atom is in unnamed module of loader 'app'; java.util.concurrent.Future is in module java.base of loader 'bootstrap')
+; Evaluation of file part2.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉aoc2023.day01.part2꞉> 
+; Evaluating file: part2.clj
+[{0 8} {4 2} {7 3}]
+{0 8}
+nil
+{4 2}
+nil
+{7 3}
+nil
+; Execution error (ClassCastException) at aoc2023.day01.part2/get-first-last-digit (part2.clj:53).
+; class clojure.core$atom cannot be cast to class java.util.concurrent.Future (clojure.core$atom is in unnamed module of loader 'app'; java.util.concurrent.Future is in module java.base of loader 'bootstrap')
+; Evaluation of file part2.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉aoc2023.day01.part2꞉> 
+; Evaluating file: part2.clj
+[{0 8} {4 2} {7 3}]
+{0 8}
+8
+{4 2}
+nil
+{7 3}
+nil
+; Execution error (ClassCastException) at aoc2023.day01.part2/get-first-last-digit (part2.clj:53).
+; class clojure.core$atom cannot be cast to class java.util.concurrent.Future (clojure.core$atom is in unnamed module of loader 'app'; java.util.concurrent.Future is in module java.base of loader 'bootstrap')
+; Evaluation of file part2.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉aoc2023.day01.part2꞉> 
+; Evaluating file: part2.clj
+[{0 8} {4 2} {7 3}]
+{0 8}
+8
+; Execution error (ClassCastException) at aoc2023.day01.part2/get-first-last-digit (part2.clj:80).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+; Evaluation of file part2.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉aoc2023.day01.part2꞉> 
+; Evaluating file: part2.clj
+[{0 8} {4 2} {7 3}]
+{0 8}
+8
+; Execution error (ClassCastException) at aoc2023.day01.part2/get-first-last-digit (part2.clj:80).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+; Evaluation of file part2.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉aoc2023.day01.part2꞉> 
+; Evaluating file: part2.clj
+[{0 8} {4 2} {7 3}]
+{0 8}
+8
+; Execution error (ClassCastException) at aoc2023.day01.part2/get-first-last-digit (part2.clj:80).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+; Evaluation of file part2.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉aoc2023.day01.part2꞉> 
+; Evaluating file: part2.clj
+[{0 8} {4 2} {7 3}]
+{0 8}
+8
+; Execution error (ClassCastException) at aoc2023.day01.part2/get-first-last-digit (part2.clj:80).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+; Evaluation of file part2.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉aoc2023.day01.part2꞉> 
+; Evaluating file: part2.clj
+[{0 8} {4 2} {7 3}]
+{0 8}
+8
+; Execution error (ClassCastException) at aoc2023.day01.part2/get-first-last-digit (part2.clj:80).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+; Evaluation of file part2.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉aoc2023.day01.part2꞉> 
+; Evaluating file: part2.clj
+[{0 8} {4 2} {7 3}]
+{0 8}
+8
+{4 2}
+nil
+{7 3}
+nil
+#function[clojure.core/atom]
+clj꞉aoc2023.day01.part2꞉> 
+; Evaluating file: part2.clj
+[{0 8} {4 2} {7 3}]
+{0 8}
+8
+{4 2}
+nil
+{7 3}
+nil
+; Execution error (ClassCastException) at aoc2023.day01.part2/get-first-last-digit (part2.clj:53).
+; class clojure.core$atom cannot be cast to class java.util.concurrent.Future (clojure.core$atom is in unnamed module of loader 'app'; java.util.concurrent.Future is in module java.base of loader 'bootstrap')
+; Evaluation of file part2.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉aoc2023.day01.part2꞉> 
+; Evaluating file: part2.clj
+[{0 8} {4 2} {7 3}]
+{0 8}
+8
+{4 2}
+nil
+{7 3}
+nil
+; Execution error (ClassCastException) at aoc2023.day01.part2/get-first-last-digit (part2.clj:88).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+; Evaluation of file part2.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉aoc2023.day01.part2꞉> 
+; Evaluating file: part2.clj
+[{0 8} {4 2} {7 3}]
+{0 8}
+8
+{4 2}
+nil
+{7 3}
+nil
+; Execution error (ClassCastException) at aoc2023.day01.part2/get-first-last-digit (part2.clj:88).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+; Evaluation of file part2.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉aoc2023.day01.part2꞉> 
+; Evaluating file: part2.clj
+[{0 8} {4 2} {7 3}]
+{0 8}
+8
+{4 2}
+nil
+{7 3}
+nil
+; Execution error (ClassCastException) at aoc2023.day01.part2/get-first-last-digit (part2.clj:88).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+; Evaluation of file part2.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉aoc2023.day01.part2꞉> 
+; Evaluating file: part2.clj
+[{0 8} {4 2} {7 3}]
+{0 8}
+8
+{4 2}
+nil
+{7 3}
+nil
+; Execution error (ClassCastException) at aoc2023.day01.part2/get-first-last-digit (part2.clj:88).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+; Evaluation of file part2.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉aoc2023.day01.part2꞉> 
+; Evaluating file: part2.clj
+[{0 8} {4 2} {7 3}]
+{0 8}
+8
+; Execution error (ClassCastException) at aoc2023.day01.part2/get-first-last-digit (part2.clj:81).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+; Evaluation of file part2.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉aoc2023.day01.part2꞉> 
+; Evaluating file: part2.clj
+[{0 8} {4 2} {7 3}]
+{0 8}
+8
+{4 2}
+nil
+{7 3}
+nil
+#atom[[1] 0x3a52d9e2]
+nil
+clj꞉aoc2023.day01.part2꞉> 
+; Evaluating file: part2.clj
+[{0 8} {4 2} {7 3}]
+{0 8}
+8
+{4 2}
+nil
+{7 3}
+nil
+#atom[[8] 0xf772c5c]
+nil
+clj꞉aoc2023.day01.part2꞉> 
+; Evaluating file: part2.clj
+[{0 8} {4 2} {7 3}]
+{0 8}
+8
+{4 2}
+nil
+{7 3}
+nil
+#atom[[8 3] 0x79842610]
+nil
+clj꞉aoc2023.day01.part2꞉> 
+; Evaluating file: part2.clj
+[{0 8} {4 2} {7 3}]
+{0 8}
+8
+{4 2}
+nil
+{7 3}
+nil
+#atom[[8 3] 0x8b7cd9b]
+nil
+clj꞉aoc2023.day01.part2꞉> 
+; Evaluating file: part2.clj
+[{0 8} {4 2} {7 3}]
+{0 8}
+8
+{4 2}
+nil
+{7 3}
+nil
+#atom[[8 3] 0x660c0b27]
+(8 3)
+clj꞉aoc2023.day01.part2꞉> 
+(8 3)
+clj꞉aoc2023.day01.part2꞉> 
+; Evaluating file: part2.clj
+[{0 8} {4 2} {7 3}]
+{0 8}
+8
+{4 2}
+nil
+{7 3}
+nil
+#atom[[8 3] 0x291740ef]
+"[8 3]"
+clj꞉aoc2023.day01.part2꞉> 
+("8" "3")
+clj꞉aoc2023.day01.part2꞉> 
+("8" "3")
+clj꞉aoc2023.day01.part2꞉> 
+; Evaluating file: part2.clj
+[{0 8} {4 2} {7 3}]
+{0 8}
+8
+{4 2}
+nil
+{7 3}
+nil
+#atom[[8 3] 0x7aa6a3f0]
+83
+clj꞉aoc2023.day01.part2꞉> 
+; Evaluating file: part2.clj
+[{0 2} {4 9} {3 1}]
+{0 2}
+2
+{4 9}
+nil
+{3 1}
+nil
+29
+clj꞉aoc2023.day01.part2꞉> 
+; Evaluating file: part2.clj
+[{3 1} {7 3} {6 2}]
+{3 1}
+1
+{7 3}
+nil
+{6 2}
+nil
+13
+clj꞉aoc2023.day01.part2꞉> 
