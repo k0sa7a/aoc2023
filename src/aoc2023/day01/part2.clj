@@ -2,7 +2,7 @@
   (:require [clojure.string :as str])
   (:require [clojure.java.io :as io]))
 
-(def test1 "abcone2threexyz")
+(def test1 "two1nine")
 
 (def digits ["one" "two" "three" "four" "five" "six" "seven" "eight" "nine"])
 (def digits-vals {"one" 1, "two" 2, "three" 3, "four" 4, "five" 5, "six" 6, "seven" 7, "eight" 8, "nine" 9})
@@ -52,9 +52,9 @@
 ;; extract both word and integer digits from a string and get the final integer from first and last digit
 (defn get-first-last-digit [input-string]
   (def result (atom []))
-  (def step1 (into [] (check-digits test1 digits digits-vals)))
-  (def step2 (into step1 (check-digits test1 numbers numbers-vals)))
-
+  (def step1 (into [] (check-digits input-string digits digits-vals)))
+  (def step2 (into step1 (check-digits input-string numbers numbers-vals)))
+  (def step3 (into [] (sort-by first step2)))
   (println step2)
 
 
@@ -62,36 +62,50 @@
   ;; the above needed refactoring using ->>
 
   (def max-ind
-    (->> step2
+    (->> step3
          (map keys)
          (apply concat)
          (apply max)))
 
   (def min-ind
-    (->> step2
+    (->> step3
          (map keys)
          (apply concat)
          (apply min)))
+  (println "min index is" min-ind)
+  (println "max index is" max-ind)
 
-  (doseq [map-with-numbers step2]
-    (println map-with-numbers)
-    (println (get map-with-numbers min-ind))
+  (doseq [map-with-numbers step3]
+    (println "Map with numbers:" map-with-numbers)
+    ;; (println "MIN:" (get map-with-numbers min-ind))
+    ;; (println "MAX:" (get map-with-numbers max-ind))
+
+
 
     (if (contains? map-with-numbers min-ind)
-      (swap! result conj (map-with-numbers min-ind))
-      )
+      (swap! result conj (map-with-numbers min-ind)))
 
     (if (contains? map-with-numbers max-ind)
-      (swap! result conj (map-with-numbers max-ind)))
+      (swap! result conj (map-with-numbers max-ind))))
+
+    (->> @result
+         (map str)
+         (apply str)
+         (Integer/parseInt)))
+
+(defn calculate
+  []
+  ;; read file with input into string
+  (def file-str (slurp "/home/k0sa7a/code/k0sa7a/aoc2023/src/aoc2023/day01/input2.csv"))
+  ;; split each new line into separate string
+  (def split-by-line (str/split-lines file-str))
 
 
-    )
-
-  (->> @result
-       (map str)
-       (apply str)
-       (Integer/parseInt)
-       )
+  (def result (reduce + (map get-first-last-digit split-by-line)))
+  (println "Result is" result)
+  result
   )
 
-(get-first-last-digit test1)
+;; (get-first-last-digit "7pqrstsixteen")
+(calculate)
+;; (map get-first-last-digit ["two1nine" "eightwothree" "abcone2threexyz" "xtwone3four" "4nineeightseven2" "zoneight234" "7pqrstsixteen"])
