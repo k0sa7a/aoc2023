@@ -6,7 +6,7 @@
 (def max-cubes {"red" 12 "green" 13 "blue" 14 })
 
 ;; game example (1 row) for testing purposes
-(def game1 "Game 4: 1 green, 3 red, 6 blue; 3 green, 6 red; 3 green, 15 blue, 14 red")
+(def game1 "Game 5: 6 red, 1 blue, 3 green; 2 blue, 1 red, 2 green")
 
 ;; function to extract the game num from the game-row string
 (defn game-name-parser [game-row]
@@ -71,4 +71,18 @@
 
   )
 
-(check-possible game1)
+(defn calculate []
+  ;; read file with input into string
+  (def file-str (slurp "/home/k0sa7a/code/k0sa7a/aoc2023/src/aoc2023/day02/input1.csv"))
+  ;; split each new line into separate string
+  (def split-by-line (str/split-lines file-str))
+
+  (let [result (atom 0)]
+    (doseq [line split-by-line]
+      (if (check-possible line)
+        (swap! result + (game-name-parser line))))
+    @result
+    )
+  )
+
+(calculate)
