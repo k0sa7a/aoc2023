@@ -28,13 +28,23 @@
         game-string (str/trim (last split-result))
         game-steps (map str/trim (str/split game-string #";"))
         game-steps-with-elements (map #(str/split % #",") game-steps)
+        element (atom [])
+        step (atom [])
         ;; game-steps-mappified (map #(hash-map (last %) (first %)) game-steps-with-elements)
 
         ]
 
      (doseq [game-step game-steps-with-elements]
-       (println game-step)
-
+       (prn game-step)
+      ;;  (map #(hash-map (last %) (first %)) game-step)
+       (doseq [draw (map str/trim game-step)]
+         (prn draw)
+         (swap! element conj (hash-map (last (str/split draw #" ")) (first (str/split draw #" "))))
+         (prn @element)
+         )
+       (swap! step conj @element)
+       (reset! element [])
+       (prn @step)
        )
 
     ))
